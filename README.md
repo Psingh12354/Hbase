@@ -4,7 +4,7 @@
 ```
 create 'notifications' 'attributes', 'metrics'
 ```
-- notification-> column name
+- notification-> table name
 - attributes+metrics -> column family
 
 ### Insert
