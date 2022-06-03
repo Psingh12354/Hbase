@@ -11,6 +11,10 @@ create 'notifications' 'attributes', 'metrics'
 ```
 put 'notifications', 2,'attributes:for_user','Chaz'
 ```
+- 2 -> row
+- attributes -> column family
+- for_user -> column name
+- chaz -> is the input
 ### Update Row
 ```
 put 'notifications' 2 , 'metrics:open',0
