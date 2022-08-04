@@ -2,14 +2,14 @@
 
 ### Create
 ```
-create 'notifications' 'attributes', 'metrics'
+create 'notifications','attributes', 'metrics'
 ```
 - notification-> table name
 - attributes+metrics -> column family
 
 ### Insert
 ```
-put 'notifications', 2,'attributes:for_user','Chaz'
+put 'notifications', ,2,'attributes:for_user','Chaz'
 ```
 - 2 -> row
 - attributes -> column family
@@ -17,7 +17,7 @@ put 'notifications', 2,'attributes:for_user','Chaz'
 - chaz -> is the input
 ### Update Row
 ```
-put 'notifications' 2 , 'metrics:open',0
+put 'notifications' ,2 , 'metrics:open',0
 ```
 
 ### Retrive Row
